@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Service</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #04208F;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #04208F;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #04208F;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .service-item {
+      border: 2px solid #04208F;
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .service-item:hover {
+      background: #04208F;
+      color: #ffffff;
+    }
+
+    .service-item h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .service-item p {
+      font-size: 0.95rem;
+    }
+
+    .commitment {
+      background: #f0f4ff;
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .commitment h2 {
+      margin-bottom: 1rem;
+      color: #04208F;
+    }
+
+    footer {
+      background: #04208F;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Customer Service</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>We're Here to Help</h2>
+      <p>Our team is dedicated to providing outstanding service and support for all your needs. Reach out any time!</p>
+    </section>
+
+    <section class="services">
+      <div class="service-item">
+        <h3>Product Support</h3>
+        <p>Help with installation, setup, and troubleshooting for all products.</p>
+      </div>
+      <div class="service-item">
+        <h3>Technical Help</h3>
+        <p>Our experts solve any technical issue you encounter quickly and efficiently.</p>
+      </div>
+      <div class="service-item">
+        <h3>Account Services</h3>
+        <p>Update your account details and manage your services easily.</p>
+      </div>
+      <div class="service-item">
+        <h3>Training Resources</h3>
+        <p>Access clear guides and tutorials to get the most from our products.</p>
+      </div>
+    </section>
+
+    <section class="commitment">
+      <h2>Our Promise</h2>
+      <p>Your satisfaction is our top priority. We deliver friendly, reliable support every step of the way.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Customer Service. All rights reserved.
+  </footer>
+
+</body>
+</html>
